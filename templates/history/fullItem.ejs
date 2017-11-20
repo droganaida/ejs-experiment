@@ -1,0 +1,11 @@
+<%
+  var itemTag = "div"
+  var itemCloseTag = "/div"
+  if (item.link && (item.link.length > 0)) {
+      itemTag = "a href=" + item.link
+      itemCloseTag = "/a"
+  }
+%>
+<<%= itemTag %> class="row">
+    <%- include innerItem.ejs %>
+<<%= itemCloseTag %>>

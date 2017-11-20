@@ -1,0 +1,11 @@
+{
+  "name": "ejs-experiments",
+  "version": "1.0.0",
+  "description": "EJS Experiments",
+  "main": "index.js",
+  "author": "Aida Drogan #BlondieCode",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "2.5.7"
+  }
+}

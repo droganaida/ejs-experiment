@@ -1,0 +1,7 @@
+<% history.forEach(function (item) {
+    if (item.link && (item.link.length > 0)) { %>
+        <%- include ./history/linkItem.ejs %>
+    <% } else { %>
+        <%- include ./history/noLinkItem.ejs %>
+    <% }
+}) %>
